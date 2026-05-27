@@ -3,6 +3,7 @@ import pgPromise from "pg-promise";
 const pgp = pgPromise();
 const conectionString = "postgres://postgres:1234@localhost:5432/hivex";
 
+// conexión
 const db = pgp({
     connectionString: conectionString,
     ssl: false,
